@@ -1,5 +1,5 @@
 
-let eindDatum = new Date("2024-03-07    ");
+let eindDatum = new Date("2024-03-07");
 let currentDate = new Date();
 const oneDay = 1000 * 60 * 60 * 24;
 const diffDays = Math.ceil(Math.abs((currentDate - eindDatum) / oneDay));
