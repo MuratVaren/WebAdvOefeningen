@@ -1,4 +1,4 @@
-fetch(`https://api.openweathermap.org/data/2.5/weather?lat=51.035269444&lon=5.36666667&units=metric&appid=7ac3fb1fc67b1e3dc4ff6a7683a50823`)
+fetch(`https://api.openweathermap.org/data/2.5/weather?lat=51.035269444&lon=5.36666667&units=metric&appid=b998a2def1149328b08a2b166b8175f7`)
 .then(response => response.json())
 .then(data => {
     document.getElementById('locatie').innerText = data.name;

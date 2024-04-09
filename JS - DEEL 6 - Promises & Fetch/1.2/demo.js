@@ -6,7 +6,7 @@ function getLocation() {
     }
 }
 function showPosition(position) {
-    fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${position.coords.latitude}&lon=${position.coords.longitude}&units=metric&appid=7ac3fb1fc67b1e3dc4ff6a7683a50823`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${position.coords.latitude}&lon=${position.coords.longitude}&units=metric&appid=b998a2def1149328b08a2b166b8175f7`)
         .then(response => response.json())
         .then(data => {
             document.getElementById('locatie').innerText = data.name;
